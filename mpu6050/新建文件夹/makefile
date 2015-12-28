@@ -1,0 +1,2 @@
+MPU.out:inv_mpu.c main.c mpu6050.c myiic.c inv_mpu_dmp_motion_driver.c dmpKey.h dmpmap.h inv_mpu.h inv_mpu_dmp_motion_driver.h mpu6050.h myiic.h
+	gcc -o MPU.out inv_mpu.c main.c mpu6050.c myiic.c inv_mpu_dmp_motion_driver.c -lm
